@@ -29,9 +29,11 @@ Positioning the labels on the outer circle can be tricky, as the lengths of the 
 - Customizable label positions for enhanced visualization.
 
 # Usage
-Prepare your data file using the format described above.
-Run the script:
-python radar_plot.py your_data_file.txt
+
+2. **Run the Script**  
+Execute the script using the following command:
+```bash
+python radar_plot.py --data your_data_file.txt
 
 e.g.:python radar_plot.py Ochoa.txt
 
