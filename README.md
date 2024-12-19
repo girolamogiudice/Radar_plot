@@ -1,6 +1,9 @@
 # Radar Plot
 
 This repository contains the code to plot a radar plot with a pie chart inside. The project was created in response to multiple requests for this functionality.
+# Example Output
+<img width="1035" alt="image" src="https://github.com/user-attachments/assets/99d6d47d-2043-4c80-83a1-8c9a24299aeb" />
+
 
 ## Description
 
@@ -28,6 +31,7 @@ Positioning the labels on the outer circle can be tricky, as the lengths of the 
 - Handles outliers based on configurable rank thresholds.
 - Customizable label positions for enhanced visualization.
 
+
 # Usage
 
 2. **Run the Script**  
@@ -37,6 +41,4 @@ python radar_plot.py --data your_data_file.txt
 
 e.g.:python radar_plot.py Ochoa.txt
 
-# Example Output
-<img width="1035" alt="image" src="https://github.com/user-attachments/assets/99d6d47d-2043-4c80-83a1-8c9a24299aeb" />
 
