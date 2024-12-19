@@ -10,8 +10,11 @@ The code generates a radar plot combined with a pie chart. It can be used to vis
 ### Data Format
 
 The data file should be formatted as follows, with all values separated by **tabs**:
-method author rank pathway
-| Method | author | Rank | Pathway |
+| Method   | Author    | Rank | Pathway   |
+|----------|-----------|------|-----------|
+| Method 1 | Author 1  | 5    | Pathway A |
+| Method 2 | Author 2  | 12   | Pathway B |
+| Method 3 | Author 3  | 9    | Pathway C |
 
 - **`rank`**: If the rank exceeds 11, it will be treated as an outlier.
 
