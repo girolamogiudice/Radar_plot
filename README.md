@@ -1,12 +1,3 @@
-# Radar_plot
-Since I received many requests, I am sharing the code to plot a radar plot with a pie chart inside.
-You can see the final results in figure 2a here: https://www.mcponline.org/article/S1535-9476(24)00061-6/fulltext 
-The data file should be formatted in this way:
-method\tauthor\trank\pathway all tabs separated
-if the rank is > 11 then it is treated as an outlier.
-The annoying part is position the label on the outer circle since these can have different lenght you need to try different settings.
-
-
 # Radar Plot
 
 This repository contains the code to plot a radar plot with a pie chart inside. The project was created in response to multiple requests for this functionality.
@@ -20,8 +11,9 @@ The code generates a radar plot combined with a pie chart. It can be used to vis
 
 The data file should be formatted as follows, with all values separated by **tabs**:
 method author rank pathway
+| Method | author | Rank | Pathway |
 
-- **`rank`**: If the rank is greater than 11, it will be treated as an outlier.
+- **`rank`**: If the rank exceeds 11, it will be treated as an outlier.
 
 ### Label Positioning
 
