@@ -32,7 +32,9 @@ Positioning the labels on the outer circle can be tricky, as the lengths of the 
 Prepare your data file using the format described above.
 Run the script:
 python radar_plot.py your_data_file.txt
+
 e.g.:python radar_plot.py Ochoa.txt
+
 # Example Output
 <img width="1035" alt="image" src="https://github.com/user-attachments/assets/99d6d47d-2043-4c80-83a1-8c9a24299aeb" />
 
